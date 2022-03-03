@@ -27,7 +27,11 @@
 * to see the list of files: `ls`
 * to make a directory a repository (to initialize): `git init .`
 
-    > We do this for a brand new project.
+    > `Initialized empty Git repository in C:/Users/user/Desktop/learning-git/.git/`  
 
-    > Initialized empty Git repository in C:/Users/user/Desktop/learning-git/.git/  
+       > We do this for a brand new project.
+       > Now we can issue git commands such as `git add`, `git commit`...
 
+* to see the list of hidden files: `ls -a`
+
+    > Terminal shows `./  ../  .git/` now.
