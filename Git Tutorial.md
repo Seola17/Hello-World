@@ -4,7 +4,7 @@
 
 ## How Git Works
 
-* Working Directory (Local machine)  
+* **Working Directory** (Local machine)  
     > _git add_ 
   * Staging Area  
     > _git commit_
@@ -12,6 +12,6 @@
   each commit is a save point.  
     > _git push_
 
-* Remote Server  
+* **Remote Server**  
     GitHub, Bitbucket, GitLab, ...
     with _git push & pull_, **collaboration** becomes handy!
