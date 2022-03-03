@@ -236,7 +236,7 @@
 
         no changes added to commit (use "git add" and/or "git commit -a")
 
-* to see the change maded in current version with respect to the commited version: `git diff`
+* to see the change maded in current version with respect to the committed version: `git diff`
   
         diff --git a/index.js b/index.js
         index e69de29..8ed859e 100644
@@ -271,3 +271,46 @@
 
             bootstrap project
 
+* to see the commit information: `git show 19456789cc3c4f9c94a2596ed742a5779934a479`
+
+        Author: User <user@gmail.com>
+        Date:   Thu Mar 3 21:27:09 2022 +0900
+
+            added console.log
+
+        diff --git a/index.js b/index.js
+        index e69de29..8ed859e 100644
+        --- a/index.js
+        +++ b/index.js
+        @@ -0,0 +1 @@
+        +console.log("hello git");
+
+    > In the previous commit information, there was no + phrase, because we added an empty file.
+
+* if we modify the file `index.js` again, this time removing the phrase we had added, `git diff` gives:
+  
+        diff --git a/index.js b/index.js
+        index 8ed859e..8b13789 100644
+        --- a/index.js
+        +++ b/index.js
+        @@ -1 +1 @@
+        -console.log("hello git");
+        
+    > The deleted message is shown with - sign.
+
+        $ git status
+        On branch master
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   index.js
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+
+* to discard the change: `git restore index.js`
+  
+        $ git status
+        On branch master
+        nothing to commit, working tree clean
+
+    > now `git diff` does not give any result since there is no change with respect to the committed version.
