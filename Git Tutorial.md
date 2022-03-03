@@ -51,7 +51,7 @@
 * to clean up the bash: `Ctrl + L`  
 
 
-_re-initialize the repository and re-try the `git add` gives:_
+    > re-initialize the repository and re-try `git add` gives:
 
         Nothing specified, nothing added.
 
