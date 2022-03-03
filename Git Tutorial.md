@@ -19,7 +19,7 @@
     GitHub, Bitbucket, GitLab, ...
     with _git push & pull_, **collaboration** becomes handy!
 
-## Repository
+## How to Initialize a Git Repository
 
 > Repositories in Git contain a collection of files of various different versions of a project.
 
@@ -56,3 +56,20 @@
         Nothing specified, nothing added.
 
 
+## Git Add
+* to create a file: `touch index.html`, `touch index.js`, `touch main.css`
+* to check the status of the git: `git status`
+
+        On branch master
+
+        No commits yet
+
+        Untracked files:
+            (use "git add <file>..." to include in what will be committed)
+                index.html
+                index.js
+                main.css
+
+        nothing added to commit but untracked files present (use "git add" to track)
+
+* 
