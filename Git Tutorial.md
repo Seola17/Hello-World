@@ -244,4 +244,30 @@
         +++ b/index.js
         @@ -0,0 +1 @@
 
+* to add this changement to the staging area: `git add .`
+ 
+        $ git status
+        On branch master
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   index.js
+
+* to issue a commit: `git commit -m "added console.log"`
+  
+        [master 1945678] added console.log
+        1 file changed, 1 insertion(+)
+
+* to see the record on this repository: `git log`
+  
+        commit 19456789cc3c4f9c94a2596ed742a5779934a479 (HEAD -> master)
+        Author: User <user@gmail.com>
+        Date:   Thu Mar 3 21:27:09 2022 +0900
+
+            added console.log
+
+        commit b8585e70a256068ae1575f1a1bbab3b88afb1e88
+        Author: User <user@gmail.com>
+        Date:   Thu Mar 3 21:05:58 2022 +0900
+
+            bootstrap project
 
