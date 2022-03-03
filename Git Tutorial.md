@@ -103,3 +103,11 @@
                 new file:   index.js
                 new file:   main.css
 
+* to remove all the files from the staging area: `git rm -r --cached .`
+  
+        rm 'index.html'
+        rm 'index.js'
+        rm 'main.css'
+
+    > and it gives again the original status with nothing being tracked.  
+    > we re-add all files with `git add .` to move on to the next step.
