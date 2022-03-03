@@ -9,3 +9,8 @@
     > _git commit_
   * Commit History  
   each commit is a save point.  
+    > _git push_
+
+* Remote Server  
+    GitHub, Bitbucket, GitLab, ...
+    with _git push & pull_, **collaboration** becomes handy!
