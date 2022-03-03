@@ -42,5 +42,11 @@
     > The tag `(master)`  is taken off the tail of the directory.  
 
         ~/Desktop/learning-git (master)
-        # becomes
         ~/Desktop/learning-git
+
+    > In current state, `git add` does not work, and it returns the error message:
+
+        fatal: not a git repository (or any of the parent directories): .git
+
+* to clean up the bash: `Ctrl + L`  
+* 
