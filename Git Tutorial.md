@@ -5,7 +5,9 @@
 ## How Git Works
 
 * **Working Directory** (Local machine)  
-    _git add_ 
+  
+    git add
+  
   * Staging Area  
     _git commit_
   * Commit History  
