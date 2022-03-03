@@ -4,8 +4,8 @@
 ## How Git Works
 
 * Working Directory (Local machine)  
-  > _git add_ 
+    > _git add_ 
   * Staging Area  
-  > _git commit_
+    > _git commit_
   * Commit History  
   each commit is a save point.  
