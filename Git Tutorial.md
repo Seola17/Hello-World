@@ -33,7 +33,14 @@
     > We do this for a brand new project.  
     > Now we can issue git commands such as `git add`, `git commit`...
 
-* to see the list of hidden files(.git): `ls -a`
+* to see the list of hidden items(.git): `ls -a`  
 
         ./  ../  .git/
 
+* to delete the item(.git): `rm -rf .git`  
+  
+    > The tag `(master)`  is taken off the tail of the directory.  
+
+        ~/Desktop/learning-git (master)
+        # becomes
+        ~/Desktop/learning-git
