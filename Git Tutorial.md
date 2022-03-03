@@ -79,11 +79,27 @@
         No commits yet
 
         Changes to be committed:
-        (use "git rm --cached <file>..." to unstage)
+            (use "git rm --cached <file>..." to unstage)
                 new file:   index.html
 
         Untracked files:
-        (use "git add <file>..." to include in what will be committed)
+            (use "git add <file>..." to include in what will be committed)
                 index.js
                 main.css
+
+* to remove a file `index.html` from the staging area: `git rm --cached index.html`
+  
+    > It shows the original status, with nothing to commit and 3 untracked files.
+
+* to add all the files from this current directory downwards: `git add .`
+
+        On branch master
+
+        No commits yet
+
+        Changes to be committed:
+            (use "git rm --cached <file>..." to unstage)
+                new file:   index.html
+                new file:   index.js
+                new file:   main.css
 
