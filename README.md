@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Seola17
-- 👀 I’m interested in AI for medical imaging
-- 🌱 I’m currently learning the basic deep learning algorithms
+- 👀 I’m interested in AI for medical imaging.
+- 🌱 I’m currently learning the basic deep learning algorithms.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
