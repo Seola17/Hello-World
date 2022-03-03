@@ -125,11 +125,13 @@
                 ../index.js
                 ../main.css
                 ./
+                
         nothing added to commit but untracked files present (use "git add" to track)
 
     > 4 files are being untracked.
 
 * on the current directory `test`, if we do `git add .`:
+  
         On branch master
 
         No commits yet
