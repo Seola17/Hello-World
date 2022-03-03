@@ -1,5 +1,6 @@
 # Git and GitHub Tutorial For Beginners 2021
-(https://www.youtube.com/watch?v=3fUbBnN_H2c)
+* Video link: https://www.youtube.com/watch?v=3fUbBnN_H2c
+* Markdown syntax guide: https://www.markdownguide.org/basic-syntax/
 
 ## How Git Works
 
