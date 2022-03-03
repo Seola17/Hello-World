@@ -32,6 +32,7 @@
     > We do this for a brand new project.
     > Now we can issue git commands such as `git add`, `git commit`...
 
-* to see the list of hidden files: `ls -a`
+* to see the list of hidden files(.git): `ls -a`
 
-        Terminal shows `./  ../  .git/` now.
+        ./  ../  .git/
+
