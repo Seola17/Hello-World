@@ -3,8 +3,8 @@
 
 ## How Git Works
 
-* Working Directory (local)
+* Working Directory (local)  
   _git add_ 
-* Staging Area
+* Staging Area  
   _git commit_
-* Commit History
+* Commit History  
