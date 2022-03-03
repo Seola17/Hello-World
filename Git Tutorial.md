@@ -180,7 +180,7 @@
         create mode 100644 main.css
         create mode 100644 test/test.js
 
-<!-- tsk -->
+    <!-- tsk -->
 
         $ git status
         On branch master
