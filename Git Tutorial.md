@@ -110,4 +110,41 @@
         rm 'main.css'
 
     > and it gives again the original status with nothing being tracked.  
-    > we re-add all files with `git add .` to move on to the next step.
+
+* to create a folder: `mkdir test`  
+* to change directory: `cd test`  
+* to create a file: `touch test.js`  
+  
+        On branch master
+
+        No commits yet
+
+        Untracked files:
+            (use "git add <file>..." to include in what will be committed)
+                ../index.html
+                ../index.js
+                ../main.css
+                ./
+        nothing added to commit but untracked files present (use "git add" to track)
+
+    > 4 files are being untracked.
+
+* on the current directory `test`, if we do `git add .`:
+        On branch master
+
+        No commits yet
+
+        Changes to be committed:
+            (use "git rm --cached <file>..." to unstage)
+                new file:   test.js
+
+        Untracked files:
+            (use "git add <file>..." to include in what will be committed)
+                ../index.html
+                ../index.js
+                ../main.css
+
+    > 3 files are still being untracked.  
+    > Only `test.js` which was in the directory of `test` and _downwards_ was added.
+
+
