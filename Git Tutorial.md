@@ -5,14 +5,12 @@
 ## How Git Works
 
 * **Working Directory** (Local machine)  
-  
-    git add
-  
+    `git add`
   * Staging Area  
-    _git commit_
+    `git commit`
   * Commit History  
-    each commit is a save point.  
-    _git push_
+    > each commit is a save point.  
+    `git push`
 
 * **Remote Server**  
     GitHub, Bitbucket, GitLab, ...
@@ -20,8 +18,7 @@
 
 ## Repository
 
-> Repositories in Git contain a collection of files 
-> of various different versions of a project.
+> Repositories in Git contain a collection of files of various different versions of a project.
 
 to go to certain directory
     _
