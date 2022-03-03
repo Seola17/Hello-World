@@ -125,7 +125,7 @@
                 ../index.js
                 ../main.css
                 ./
-                
+
         nothing added to commit but untracked files present (use "git add" to track)
 
     > 4 files are being untracked.
@@ -149,4 +149,39 @@
     > 3 files are still being untracked.  
     > Only `test.js` which was in the directory of `test` and _downwards_ was added.
 
+* to add every file in any directory: `git add -A`
+  
+        On branch master
 
+        No commits yet
+
+        Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+                new file:   ../index.html
+                new file:   ../index.js
+                new file:   ../main.css
+                new file:   test.js
+
+## Git Commit
+
+> Commit is a save point before starting implementing another feature.
+
+* to go back to the root directory (the upper folder): `cd ..`
+  
+        ~/desktop/learning-git/test (master)
+        ~/desktop/learning-git (master)
+
+* to issue a commit for all the 4 files in the staging area: `git commit -m "bootstrap project"`
+  
+        [master (root-commit) b8585e7] bootstrap project
+        4 files changed, 0 insertions(+), 0 deletions(-)
+        create mode 100644 index.html
+        create mode 100644 index.js
+        create mode 100644 main.css
+        create mode 100644 test/test.js
+
+<!-- tsk -->
+
+        $ git status
+        On branch master
+        nothing to commit, working tree clean
