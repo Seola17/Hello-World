@@ -9,7 +9,9 @@
   * Staging Area  
     `git commit`
   * Commit History  
+  
     > each commit is a save point.  
+
     `git push`
 
 * **Remote Server**  
