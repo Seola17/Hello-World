@@ -3,8 +3,7 @@
 > - Video link: https://www.youtube.com/watch?v=3fUbBnN_H2c
 > - Markdown syntax guide: https://www.markdownguide.org/basic-syntax/
 
-
-
+<!-- tsk -->
 ## How Git Works
 
 * **Working Directory** (Local machine)  
@@ -225,9 +224,9 @@
         index 0000000..e69de29
 
 * to open a file: `vi index.js`
-* to edit: press `i` or `INSERT`
+* to edit: press `I` or `INSERT`
 * insert: `console.log("hello git");`
-* to quit: press `ALT + q` or `ESC`
+* to quit: press `ALT + Q` or `ESC`
 * type: `:wq`
 * to see the content of the file: `cat index.js`
   
