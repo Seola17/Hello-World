@@ -72,4 +72,4 @@
 
         nothing added to commit but untracked files present (use "git add" to track)
 
-* 
+* <span style="color:blue">some *blue* text</span>.
