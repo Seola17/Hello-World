@@ -9,4 +9,5 @@ Seola17/Seola17 is a ✨ special ✨ repository because its `README.md` (this fi
 You can click the Preview link to take a look at your changes.
 --->
     import torch
-    import torch.nn as nn 
+    import torch.nn as nn
+    ## This is the first README I commit to my repository.
