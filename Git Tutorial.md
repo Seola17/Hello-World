@@ -9,7 +9,7 @@
   * Staging Area  
     > _git commit_
   * Commit History  
-  each commit is a save point.  
+    each commit is a save point.  
     > _git push_
   
 * **Remote Server**  
