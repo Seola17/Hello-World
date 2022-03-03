@@ -49,4 +49,10 @@
         fatal: not a git repository (or any of the parent directories): .git
 
 * to clean up the bash: `Ctrl + L`  
-* 
+
+
+_re-initialize the repository and re-try the `git add` gives:_
+
+        Nothing specified, nothing added.
+
+
