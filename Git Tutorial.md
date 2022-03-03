@@ -2,7 +2,9 @@
 > 
 > - Video link: https://www.youtube.com/watch?v=3fUbBnN_H2c
 > - Markdown syntax guide: https://www.markdownguide.org/basic-syntax/
->
+
+
+
 ## How Git Works
 
 * **Working Directory** (Local machine)  
@@ -18,6 +20,8 @@
 * **Remote Server**  
     GitHub, Bitbucket, GitLab, ...
     with _git push & pull_, **collaboration** becomes handy!
+
+
 
 ## How to Initialize a Git Repository
 
@@ -54,6 +58,8 @@
     > re-initialize the repository and re-try `git add` gives:
 
         Nothing specified, nothing added.
+
+
 
 
 ## Git Add
@@ -161,6 +167,8 @@
                 new file:   ../index.js
                 new file:   ../main.css
                 new file:   test.js
+
+
 
 ## Git Commit
 
