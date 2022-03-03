@@ -230,10 +230,18 @@
         $ git status
         On branch master
         Changes not staged for commit:
-        (use "git add <file>..." to update what will be committed)
-        (use "git restore <file>..." to discard changes in working directory)
+            (use "git add <file>..." to update what will be committed)
+            (use "git restore <file>..." to discard changes in working directory)
                 modified:   index.js
 
         no changes added to commit (use "git add" and/or "git commit -a")
+
+* to see the change maded in current version with respect to the commited version: `git diff`
+  
+        diff --git a/index.js b/index.js
+        index e69de29..8ed859e 100644
+        --- a/index.js
+        +++ b/index.js
+        @@ -0,0 +1 @@
 
 
