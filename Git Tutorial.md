@@ -34,4 +34,4 @@
 
 * to see the list of hidden files: `ls -a`
 
-    > Terminal shows `./  ../  .git/` now.
+        Terminal shows `./  ../  .git/` now.
