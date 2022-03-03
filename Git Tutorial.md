@@ -72,4 +72,18 @@
 
         nothing added to commit but untracked files present (use "git add" to track)
 
-* <span style="color:blue">some *blue* text</span>.
+* to get a file `index.html` tracked: `git add index.html`  
+
+        On branch master
+
+        No commits yet
+
+        Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+                new file:   index.html
+
+        Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+                index.js
+                main.css
+
