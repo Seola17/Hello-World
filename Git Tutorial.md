@@ -164,7 +164,7 @@
 
 ## Git Commit
 
-> Commit is a save point before starting implementing another feature.
+> Commit is a **save point** before starting implementing another feature.
 
 * to go back to the root directory (the upper folder): `cd ..`
   
@@ -185,3 +185,55 @@
         $ git status
         On branch master
         nothing to commit, working tree clean
+
+* to see the record of git activities: `git log`
+  
+        commit b8585e70a256068ae1575f1a1bbab3b88afb1e88 (HEAD -> master)
+        Author: User <user@gmail.com>
+        Date:   Thu Mar 3 21:05:58 2022 +0900
+
+            bootstrap project
+
+    > `b8585e70a256068ae1575f1a1bbab3b88afb1e88` is a unique commit **hash**.
+
+* to see the information of a commit: `git show b8585e70a256068ae1575f1a1bbab3b88afb1e88`
+  
+        Author: User <user@gmail.com>
+        Date:   Thu Mar 3 21:05:58 2022 +0900
+
+            bootstrap project
+
+        diff --git a/index.html b/index.html
+        new file mode 100644
+        index 0000000..e69de29
+        diff --git a/index.js b/index.js
+        new file mode 100644
+        index 0000000..e69de29
+        diff --git a/main.css b/main.css
+        new file mode 100644
+        index 0000000..e69de29
+        diff --git a/test/test.js b/test/test.js
+        new file mode 100644
+        index 0000000..e69de29
+
+* to open a file: `vi index.js`
+* to edit: press `i` or `INSERT`
+* insert: `console.log("hello git");`
+* to quit: press `ALT + q` or `ESC`
+* type: `:wq`
+* to see the content of the file: `cat index.js`
+  
+        console.log("hello git");
+
+    <!-- tsk -->
+
+        $ git status
+        On branch master
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   index.js
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+
+
