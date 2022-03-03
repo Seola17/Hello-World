@@ -22,5 +22,15 @@
 
 > Repositories in Git contain a collection of files of various different versions of a project.
 
-to go to certain directory
-    _
+* to go to certain directory
+  `cd Desktop`
+* to create a folter
+  `mkdir learning-git`
+* to see the list of files
+  `ls`
+
+* to make a directory a repository (to initialize)
+  `git init .`
+  
+  > Initialized empty Git repository in C:/Users/user/Desktop/learning-git/.git/  
+
