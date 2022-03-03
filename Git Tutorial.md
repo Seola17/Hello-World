@@ -313,4 +313,4 @@
         On branch master
         nothing to commit, working tree clean
 
-    > now `git diff` does not give any result since there is no change with respect to the committed version.
+    > Now `git diff` does not give any result since there is no change with respect to the committed version.
